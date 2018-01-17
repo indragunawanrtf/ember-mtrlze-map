@@ -1,0 +1,15 @@
+// Fix for Roboto font path
+$roboto-font-path: '../assets/';
+
+// Materialize styles
+@import "materialize";
+
+.container {
+  margin-right: 90px;
+}
+
+.side-nav {
+  margin-top: 64px;
+}
+
+$primary-color: color("indigo", "lighten-2");
