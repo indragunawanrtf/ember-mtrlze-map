@@ -4,13 +4,22 @@ $roboto-font-path: '../assets/';
 // Materialize styles
 @import "materialize";
 
-.container {
-  margin-right: 90px;
-}
+//.container {
+//  margin-right: 90px;
+//}
 
 .side-nav {
-  margin-top: 64px;
+  &.myClass {
+    left: 0;
+    transform: inherit;
+    position: relative;
+  }
 }
+
+//.g-map-canvas {
+//  width: 100%;
+//  height: 100%;
+//}
 
 .g-map{
   height: 100%;

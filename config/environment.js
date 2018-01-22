@@ -1,6 +1,7 @@
 'use strict';
 
 module.exports = function(environment) {
+
   let ENV = {
     modulePrefix: 'ember-mtrlze-map',
     environment,
@@ -21,7 +22,18 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+      'g-map': {
+        libraries: ['places'],
+        key: 'AIzaSyD3LdqCOSw0sp8OEKJkWcDZGrk34Jx3CFI'
+      }
     }
+  };
+
+  ENV.contentSecurityPolicy = {
+    'script-src': "'self' 'unsafe-eval' https://*.googleapis.com https://maps.gstatic.com",
+    'img-src': "'self' https://*.googleapis.com https://*.gstatic.com",
+    'font-src': "'self' https://*.gstatic.com",
+    'style-src': "'self' 'unsafe-inline' https://*.googleapis.com"
   };
 
   if (environment === 'development') {
