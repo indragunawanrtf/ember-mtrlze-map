@@ -29,4 +29,17 @@ $roboto-font-path: '../assets/';
   height: 100%;
 }
 
+#map {
+  clear:both;
+
+}
+
+.container {
+  min-height: 100% !important;
+  height:100%;
+  position: fixed;
+  display: inline-grid;
+}
+
+
 $primary-color: color("indigo", "lighten-2");
