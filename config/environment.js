@@ -22,11 +22,11 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-      'g-map': {
-        libraries: ['places'],
-        key: 'AIzaSyD3LdqCOSw0sp8OEKJkWcDZGrk34Jx3CFI'
-      }
     }
+  };
+
+  ENV.googleMap = {
+    apiKey: 'AIzaSyD2naS3ZLjwehV4dPX91lMrGRU6MKcGcZM'
   };
 
   ENV.contentSecurityPolicy = {
@@ -35,6 +35,7 @@ module.exports = function(environment) {
     'font-src': "'self' https://*.gstatic.com",
     'style-src': "'self' 'unsafe-inline' https://*.googleapis.com"
   };
+
 
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
