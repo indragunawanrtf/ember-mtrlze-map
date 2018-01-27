@@ -1,12 +1,8 @@
 <div class="row">
-
   {{partial 'partial/navbar'}}
   {{partial 'partial/sidebar'}}
-
-  <div class="container col s12 m8 l9">
-    {{!--<h1>Welcome</h1>--}}
-    {{g-maps lat=lat lng=lng zoom=zoom}}
-  </div>
+  {{outlet}}
 </div>
+
 
 

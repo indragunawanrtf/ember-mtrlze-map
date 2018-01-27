@@ -1,12 +1,11 @@
 <header class="page-topbar">
-  <div class="navbar-fixed">
+  <div class="navbar">
     <nav class="indigo">
       <div class="nav-wrapper">
         <a href="" class="brand-logo">EmberJs Map</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="#"><i class="material-icons">account_balance</i></a></li>
-          <li><a href="#"><i class="material-icons">account_circle</i></a></li>
-          <li><a href="#"><i class="material-icons">add_location</i></a></li>
+          {{#link-to 'index' tagName="li"}}<a href="">Home</a>{{/link-to}}
+          {{#link-to 'profile' tagName="li"}}<a href="">Profile</a>{{/link-to}}
           <li><a href="#"><i class="material-icons">airplay</i></a></li>
           <li><a href="#"><i class="material-icons">all_inclusive</i></a></li>
           <li><a href="#"><i class="material-icons">archive</i></a></li>
