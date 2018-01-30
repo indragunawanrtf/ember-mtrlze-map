@@ -1,71 +1,54 @@
-<div id="main" class="col s12 m4 l3">
-  <div class="wrapper">
-    <aside id="left-side-nav">
-      <ul class="side-nav myClass">
-        <li>
-          <div class="userView">
-            <div class="background">
-              <img src="assets/user.jpeg" class="responsive-img">
-            </div>
-            <a href="#"><img class="circle z-depth-5" src="assets/u.jpg"></a>
-            <a href="#"><span class="white-text z-depth-5 name">Indra Gunawan</span></a>
-            <a href="#"><span class="white-text z-depth-5 email">indragunawanrtf@gmail.com</span></a>
-          </div>
-        </li>
-
-        <li class="no-padding">
-          <ul class="collapsible" data-collapsible="accordion">
-            <li class="bold">
-              <a class="collapsible-header waves-effect">
-                <i class="material-icons">dashboard</i>
-                {{#link-to 'dashboard' tagName="li"}} <a href="">Dashboard</a>{{/link-to}}
-              </a>
-            </li>
-            <li class="bold">
-              <a class="collapsible-header waves-effect">
-                <i class="material-icons">supervisor_account</i>
-                <span class="nav-text">Operator</span>
-              </a>
-            </li>
-            <li class="bold">
-              <a class="collapsible-header waves-effect">
-                <i class="material-icons">art_track</i>
-                <span class="nav-text">Track</span>
-              </a>
-            </li>
-            <li class="bold">
-              <a class="collapsible-header waves-effect">
-                <i class="material-icons">camera_alt</i>
-                <span class="nav-text">Camera</span>
-              </a>
-            </li>
-            <li class="bold">
-              <a class="collapsible-header waves-effect">
-                <i class="material-icons">cloud_upload</i>
-                <span class="nav-text">Cloud</span>
-              </a>
-            </li>
-            <li class="bold">
-              <a class="collapsible-header waves-effect">
-                <i class="material-icons">computer</i>
-                <span class="nav-text">Track</span>
-              </a>
-            </li>
-            <li class="bold">
-              <a class="collapsible-header waves-effect">
-                <i class="material-icons">credit_card</i>
-                <span class="nav-text">Payment</span>
-              </a>
-            </li>
-            <li class="bold">
-              <a class="collapsible-header waves-effect">
-                <i class="material-icons">developer_board</i>
-                <span class="nav-tet">Technician Board</span>
-              </a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </aside>
-  </div>
-</div>
+<ul class="hide-on-med-and-down">
+  <li class="no-padding">
+    <ul class="collapsible" data-collapsible="accordion">
+      <li class="bold">
+        <a class="collapsible-header waves-effect">
+          <i class="material-icons">dashboard</i>
+          {{#link-to 'dashboard' tagName="li"}} <a href="">Dashboard</a>{{/link-to}}
+        </a>
+      </li>
+      <li class="bold">
+        <a class="collapsible-header waves-effect">
+          <i class="material-icons">supervisor_account</i>
+          {{#link-to 'last-positions' tagName="li"}} <a href="">Operator</a>{{/link-to}}
+        </a>
+      </li>
+      <li class="bold">
+        <a class="collapsible-header waves-effect">
+          <i class="material-icons">art_track</i>
+          <span class="nav-text">Track</span>
+        </a>
+      </li>
+      <li class="bold">
+        <a class="collapsible-header waves-effect">
+          <i class="material-icons">camera_alt</i>
+          <span class="nav-text">Camera</span>
+        </a>
+      </li>
+      <li class="bold">
+        <a class="collapsible-header waves-effect">
+          <i class="material-icons">cloud_upload</i>
+          <span class="nav-text">Cloud</span>
+        </a>
+      </li>
+      <li class="bold">
+        <a class="collapsible-header waves-effect">
+          <i class="material-icons">computer</i>
+          <span class="nav-text">Track</span>
+        </a>
+      </li>
+      <li class="bold">
+        <a class="collapsible-header waves-effect">
+          <i class="material-icons">credit_card</i>
+          <span class="nav-text">Payment</span>
+        </a>
+      </li>
+      <li class="bold">
+        <a class="collapsible-header waves-effect">
+          <i class="material-icons">developer_board</i>
+          <span class="nav-tet">Technician Board</span>
+        </a>
+      </li>
+    </ul>
+  </li>
+</ul>

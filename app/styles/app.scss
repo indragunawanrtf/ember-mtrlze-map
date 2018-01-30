@@ -8,17 +8,31 @@ $roboto-font-path: '../assets/';
 //  margin-right: 90px;
 //}
 
-.side-nav {
-  &.myClass {
-    left: 0;
-    transform: inherit;
-    position: relative;
-  }
+nav {
+  background-color: #43a047;
+}
+
+.card {
+  max-height: 60%;
+  max-width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding: 10px 16px;
+}
+
+nav .brand-logo {
+  max-height: 40px;
+  max-width: 30%;
+  overflow: visible;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.side-nav-custom {
+  top: 64px;
 }
 
 
-.ember-cli-g-map{
+.ember-cli-g-map {
   height: 600px;
 }
-
-$primary-color: color("indigo", "lighten-2");

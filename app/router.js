@@ -10,8 +10,9 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
-  this.route('profile');
   this.route('dashboard');
+  this.route('last-positions');
+  this.route('map');
 });
 
 export default Router;

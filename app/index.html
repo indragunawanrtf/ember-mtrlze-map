@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Ember Materialize Map</title>
+    <title>Iluva Operator</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,10 +19,10 @@
 
     <script src="{{rootURL}}assets/vendor.js"></script>
     <script src="{{rootURL}}assets/ember-mtrlze-map.js"></script>
-
-    <script>
-      $(document).ready(function(){
-        $(".btn").sideNav();
+    <script type="text/javascript">
+      $('.button-collapse').sideNav({
+        menuWidth: 300,
+        closeOnClick: true
       });
     </script>
     {{content-for "body-footer"}}
